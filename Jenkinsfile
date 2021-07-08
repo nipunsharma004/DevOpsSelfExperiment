@@ -1,0 +1,18 @@
+pipeline {
+    agent any
+    stages {
+		
+		
+		// ******ALL CODE TO BE ADDED BELOW THIS COMMENT******
+		
+		//Code starts for stage Clean
+			stage('Clean') {
+            steps {
+                sh 'mvn clean'
+            }
+        }
+		//Code ends for stage Clean
+
+// ******ALL CODE TO BE ADDED ABOVE THIS COMMENT******
+    }
+}

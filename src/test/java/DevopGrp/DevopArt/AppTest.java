@@ -16,6 +16,7 @@ public class AppTest
     public void shouldAnswerWithTrue()
     {
         assertTrue( true );
+        System.out.println("I am trying to trigger build in jenkins on each push via git to github, hoping to be successful");
         System.out.println("DevOps Testing Successful");
     }
 }
